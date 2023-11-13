@@ -1,7 +1,9 @@
 # NN to classify amazon reviews
 
-run 2 commands 
+run 3 commands 
+
+`pip install -r requirements.txt`
 
 `python -m spacy download en_core_web_sm`
 
-`pip3 install torch torchvision torchaudio torchtext --index-url https://download.pytorch.org/whl/cu121`
+`pip install torch torchvision torchaudio torchtext --index-url https://download.pytorch.org/whl/cu121`
