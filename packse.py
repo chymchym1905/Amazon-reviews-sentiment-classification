@@ -17,9 +17,9 @@ mask = (padded_data != 0).float()
 print(mask.sum(1))
 embedding = nn.Embedding(1000, 300, padding_idx=0)
 embeded_data = embedding(padded_data)
-
+print(embeded_data.shape)
 packed_data = pack_padded_sequence(embeded_data, lengths, batch_first=True, enforce_sorted=False)
-# print(packed_data)
+print(packed_data)
 lstm = nn.LSTM(300, 512, batch_first=True)
 o, (h, c) = lstm(packed_data)
 
