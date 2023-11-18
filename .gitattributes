@@ -1,8 +1,5 @@
 *.csv filter=lfs diff=lfs merge=lfs -text
 Video_Games_Resampled.csv filter=lfs diff=lfs merge=lfs -text
-model_colab/**/* filter=lfs diff=lfs merge=lfs -text
-model_Quadro_M100M/**/* filter=lfs diff=lfs merge=lfs -text
-model_RTX3050Ti/**/* filter=lfs diff=lfs merge=lfs -text
 model_colab/Model_at_epoch_33.pth filter=lfs diff=lfs merge=lfs -text
 model_RTX_3050Ti/Model_at_epoch_15.pth filter=lfs diff=lfs merge=lfs -text
 model_Quadro_M1000M/Model_at_epoch_0.pth filter=lfs diff=lfs merge=lfs -text
